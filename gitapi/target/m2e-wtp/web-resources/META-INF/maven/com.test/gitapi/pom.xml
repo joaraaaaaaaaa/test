@@ -32,7 +32,36 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-				
+		
+		<!-- org.kohsuke/github-api -->
+		<dependency>
+		    <groupId>org.kohsuke</groupId>
+		    <artifactId>github-api</artifactId>
+		    <version>1.86</version>
+		</dependency>
+		
+		<!-- com.jcabi/github-api -->
+		<dependency>
+		  <groupId>com.jcabi</groupId>
+		  <artifactId>jcabi-github</artifactId>
+		  <version>0.23</version>
+		</dependency>
+		
+		<!-- gson -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.google.code.gson</groupId> -->
+<!-- 			<artifactId>gson</artifactId> -->
+<!-- 			<version>2.2.2</version> -->
+<!-- 			<scope>compile</scope> -->
+<!-- 		</dependency> -->
+		
+		<!-- github -->
+<!-- 		<dependency> -->
+<!-- 		  <groupId>org.eclipse.mylyn.github</groupId> -->
+<!-- 		  <artifactId>org.eclipse.egit.github.core</artifactId> -->
+<!-- 		  <version>2.1.5</version> -->
+<!-- 		</dependency> -->
+		
 		<!-- AspectJ -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
