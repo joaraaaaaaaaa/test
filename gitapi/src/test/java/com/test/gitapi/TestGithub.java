@@ -295,7 +295,7 @@ public class TestGithub implements Token,IGitHubConstants {
 		// post a new tree object with that file path pointer replaced with your new blob SHA getting a tree SHA back
 		Tree ntree = dataService.createTree(repo, ntList);
 		commit.setTree(ntree);
-		commit.setMessage("new commit");
+		commit.setMessage("new commit"); 
 		
 		// 새로운 커밋을 만듦
 		// create a new commit object with the current commit SHA as the parent and the new tree SHA, getting a commit SHA back
